@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ipl-auction-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 3001

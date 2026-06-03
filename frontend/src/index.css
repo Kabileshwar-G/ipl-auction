@@ -1,0 +1,9 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0a1a; }
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: #0d0d1a; }
+::-webkit-scrollbar-thumb { background: #2a2a3a; border-radius: 2px; }
+input, select, button { font-family: inherit; outline: none; }
+button { transition: opacity 0.15s, transform 0.1s; }
+button:hover { opacity: 0.9; }
+button:active { transform: scale(0.98); }
