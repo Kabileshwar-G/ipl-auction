@@ -305,7 +305,7 @@ export default function App() {
           <div style={{display:"flex",alignItems:"center",gap:12}}>
             <span style={{fontFamily:"'Bebas Neue'",fontSize:24,color:"#FFD700",letterSpacing:2}}>IPL AUCTION</span>
             <span style={{background:"#1a3a1a",color:"#4CAF50",fontSize:12,padding:"3px 10px",borderRadius:20,border:"1px solid #2a4a2a"}}>🔴 LIVE</span>
-            <span style={{background:"#222",color:"#888",fontSize:12,padding:"3px 10px",borderRadius:20"}}>ROOM: {roomCode}</span>
+            <span style={{background:"#222",color:"#888",fontSize:12,padding:"3px 10px",borderRadius:20}}>ROOM: {roomCode}</span>
           </div>
           {myTeam && (
             <div style={{display:"flex",alignItems:"center",gap:12}}>
